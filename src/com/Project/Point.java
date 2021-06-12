@@ -1,22 +1,19 @@
 package com.Project;
 
 public class Point {
-    private float x;
-    private float y;
+    int x;
+    int y;
 
-    public Point(float x, float y) {
+    public Point(int x, int y){
         this.x = x;
         this.y = y;
     }
 
-    public float getX() {
+    public int getX() {
         return x;
     }
 
-    public float getY() {
+    public int getY() {
         return y;
     }
-
-
-    // getters & toString()
 }
